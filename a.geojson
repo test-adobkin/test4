@@ -11,8 +11,11 @@
       "type": "Feature",
       "properties": {
         "_github": {
-          "type": "foo\"><img src=404 onerror=console.log(1)>"
+          "type": "foo\"><img src=404 onerror=document.write(document.domain)>"
         },
+        "name": "ABC",
+        "title": "A title",
+        "marker-symbol": "bus",
         "LICENSE<b>xx": "ABRA-080135",
         "TRADE_NAME": "Little Ethiopia Restaurant",
         "APPLICANT": "Feker Sound, Inc.<script>alert(1)<\/script><img src='404'> <iframe src=http:\/\/x.com\/404><\/iframe>  abc",
